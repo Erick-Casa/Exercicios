@@ -1,4 +1,5 @@
-/*Data input of two numbers and the operator chosen by the user.
+/*Basic_calculator 
+Data input of two numbers and the operator chosen by the user.
 Conditional structures: Use if or switch to select the desired operation (addition, subtraction, multiplication or division).
 Functions: Modularize your code by creating functions for each operation.
 Repetition loops: Allow the user to perform several operations until they decide to exit.*/
@@ -80,4 +81,4 @@ int main(){
 		math();
 		stop_program();		
 			   }	
-	      }
+	return 0;     }
