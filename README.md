@@ -1,1 +1,2 @@
-Alguns Exercícios que eu resolvi ao praticar as linguagens de programação.
+Alguns exercícios que eu resolvi com linguagens de programação.
+Some exercises i solved with programming Languages.
