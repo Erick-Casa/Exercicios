@@ -9,9 +9,9 @@ void calcular_e_printar_tabuada(int entrada, int contador){
 int main(){
 	int entrada = 0;
 	int contador = 1;
-	//enquanto for true irá pedir entrada e calcular e printar tabuada
-	while(1){
-	//entrada do número que quer da tabuada e print sobre ele
+
+	while(1){ 	//enquanto for true irá pedir entrada, calcular e printar tabuada
+
 	contador = 1;
 	printf("\nInsira o numero que voce quer a tabuada: ");
 	scanf("%i", &entrada);
@@ -22,8 +22,7 @@ int main(){
 	
 		calcular_e_printar_tabuada(entrada, contador);
 		contador += 1;
-			  }
-
-			   }
+			}
+		}
 	return 0;
 	}
