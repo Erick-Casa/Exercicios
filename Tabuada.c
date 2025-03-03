@@ -1,13 +1,10 @@
 #include <stdio.h>
 
-//
 void calcular_e_printar_tabuada(int entrada, int contador){
-	
 	int resultado = entrada * contador;
 	
 	printf("%i vezes %i igual a %i \n", entrada, contador, resultado);	
-				
-					}
+	}
 
 int main(){
 	int entrada = 0;
@@ -29,4 +26,4 @@ int main(){
 
 			   }
 	return 0;
-		}
+	}
