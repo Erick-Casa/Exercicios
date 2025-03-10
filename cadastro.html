@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	
+	<header>
+		<meta charset="UTF-8">
+		<title>Cadastro</title>
+	</header>
+	
+	<body>
+		<fieldset>
+		<h1>Cadastro</h1>
+		<p>Página para fazer cadastro</p>
+		
+			<form action="URL" method="POST">
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" name="nome" required>
+				<br>
+				
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<br>
+				
+				<label for="senha">Senha:</label>
+				<input type="password" id="senha" name="senha" required> 
+				<br>
+				
+				<legend>Sexo:</legend> <!--Botões de rádio-->
+				<label>
+				<input type="radio" name="grupo_opcoes" value="masculino"> Masculino
+				</label>
+				
+				<label>
+				<input type="radio" name="grupo_opcoes" value="feminino"> Feminino		
+				</label>
+				
+				<label>
+				<input type="radio" name="grupo_opcoes" value="outro"> Outro
+				</label>
+				
+				<br><br>
+				<legend>Escolha Seus tópicos de interesse:</legend>
+				<label> <!--Caixas de seleção-->
+				<input type="checkbox" name="lista_interesses[]" value="programacao"> Programação
+				</label>
+				
+				<label>
+				<input type="checkbox" name="lista_interesses[]" value="jogos"> Jogos
+				</label>
+				
+				<label>
+				<input type="checkbox" name="lista_interesses[]" value="esportes"> Esportes
+				</label>
+				
+				<br><br><!--Data Nascimento-->
+				<label for="nascimento">Data de nascimento:</label>
+				<input type="Data" id="nascimento" name="nascimento" required>
+				
+				<br><br> <!--Botão-->
+				<button type="submit">Enviar Formulário</button>		
+			</form>
+		</fieldset>
+	</body>
+</html>
