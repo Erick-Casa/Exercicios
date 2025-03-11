@@ -1,0 +1,33 @@
+.classeteste{
+	text-align: center;
+	font-size: 18px;
+}
+
+body{
+	background-color: lightgray;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	text-align: center;
+	padding: 20px;
+	margin: 20px;
+}
+
+p{
+	font-size: 18px;
+	text-align: center;
+}
+
+a{
+	font-size: 18px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+a:hover{
+	color: gray;
+}
