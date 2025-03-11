@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	
-	<header>
+	<head>
 		<meta charset="UTF-8">
 		<title>Cadastro</title>
-	</header>
+	</head>
 	
 	<body>
-		<fieldset>
-		<h1>Cadastro</h1>
-		<p>Página para fazer cadastro</p>
 		
-			<form action="URL" method="POST">
+		<h1>Cadastro</h1>
+		<p>Faça o cadastro abaixo:</p>
+		
+		<form action="URL" method="POST">
+			<fieldset>
+				<legend>Informações:</legend>
 				<label for="nome">Nome:</label>
 				<input type="text" id="nome" name="nome" required>
 				<br>
@@ -23,8 +25,11 @@
 				<label for="senha">Senha:</label>
 				<input type="password" id="senha" name="senha" required> 
 				<br>
-				
-				<legend>Sexo:</legend> <!--Botões de rádio-->
+			</fieldset>
+			
+			<fieldset>
+				<legend>Sexo: </legend>
+				 <!--Botões de rádio-->
 				<label>
 				<input type="radio" name="grupo_opcoes" value="masculino"> Masculino
 				</label>
@@ -36,8 +41,9 @@
 				<label>
 				<input type="radio" name="grupo_opcoes" value="outro"> Outro
 				</label>
-				
-				<br><br>
+			</fieldset>
+			
+			<fieldset>
 				<legend>Escolha Seus tópicos de interesse:</legend>
 				<label> <!--Caixas de seleção-->
 				<input type="checkbox" name="lista_interesses[]" value="programacao"> Programação
@@ -50,14 +56,34 @@
 				<label>
 				<input type="checkbox" name="lista_interesses[]" value="esportes"> Esportes
 				</label>
-				
-				<br><br><!--Data Nascimento-->
+			</fieldset>	
+			
+				<br><!--Data Nascimento-->
 				<label for="nascimento">Data de nascimento:</label>
-				<input type="Data" id="nascimento" name="nascimento" required>
+				<input type="date" id="nascimento" name="nascimento" required>
 				
 				<br><br> <!--Botão-->
-				<button type="submit">Enviar Formulário</button>		
-			</form>
-		</fieldset>
+				<button type="submit">Enviar Formulário</button>			
+		</form>
+		
+		<table>
+			<tr>
+				<th>Nome</th>
+				<th>Email</th>
+				<th>Sexo</th>
+			</tr>
+			
+			<tr>
+				<td>João</td>
+				<td>joao@gmail.com</td>
+				<td>Masculino</td>
+			</tr>
+
+			<tr>
+				<td>Maria</td>
+				<td>maria@gmail.com</td>
+				<td>Feminino</td>
+			</tr>
+		</table>
 	</body>
 </html>
