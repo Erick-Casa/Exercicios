@@ -1,0 +1,41 @@
+/*Coloque a imagem de perfil em forma de círculo.
+Adicione uma borda à imagem de perfil.
+Alinhe o conteúdo no centro da página.
+Defina uma cor de fundo para a página e para a área do perfil.
+Altere a fonte do nome do usuário para algo mais estiloso.
+Adicione espaçamento entre o nome e a descrição.
+O título da página deve ser centralizado no topo.*/
+*{
+	margin: 0; /*um elemento em relação ao outro*/
+	padding: 0; /*do conteúdo até a borda do elemento*/
+	
+}
+
+
+body{
+	text-align: center;
+	background-color: lightgray;
+}
+
+h1{
+	
+}
+
+#usuario{
+	font-size: 30px;
+	font-family: Arial, sans-serif;
+	padding-bottom: 5px;
+
+}
+
+p{
+
+}
+
+img{
+	width: 45%;
+	height: auto;
+	
+	border-radius: 50%;
+	border: 5px double gray;
+}
