@@ -8,7 +8,7 @@ void soma_matrizes(int matriz1[TAM][TAM], int matriz2[TAM][TAM]){
 	int soma = 0;
 	
 	for(int l=0; l<3; l++){     //linha
-		for(int e=0; e<3; e++){ //elemento/coluna
+		for(int e=0; e<3; e++){ //elemento da  linha/coluna
 			soma += matriz1[l][e] + matriz2[l][e];
 		}
 	}
