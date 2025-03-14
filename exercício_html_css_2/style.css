@@ -20,13 +20,18 @@ p{
 }
 
 img{
+	width: 250px;
+	height: 250px;
 	transition: transform 0.5s ease, opacity: 0.5s ease;
+
 }
 
 img:hover{
 	transform: scale(1.1);
 	opacity: 0.88;
 }
+
+
 
 button{
 	width: 240px;
@@ -53,8 +58,6 @@ button{
 				 -1px -1px 0 black, /*canto esquerda baixo*/
 				 1px -1px 0 black, /*cantos direita baixo*/
 				 -1px 1px 0 black; /*canto esquerda cima*/
-				 
-	
 }
 
 button:hover{
