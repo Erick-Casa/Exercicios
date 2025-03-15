@@ -31,8 +31,6 @@ img:hover{
 	opacity: 0.88;
 }
 
-
-
 button{
 	width: 240px;
 	height: 40px;
@@ -61,13 +59,13 @@ button{
 }
 
 button:hover{
-	
+	opacity: 0.85;
 }
 
-button:focus{
-	transform: none;
-	box-shadow: none;
-	
+
+@media (max-width: 875px){
+	img{
+		width: 30%;
+		height: 30%;
 }
 
-@media()
