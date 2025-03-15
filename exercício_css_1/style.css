@@ -5,12 +5,17 @@ Defina uma cor de fundo para a página e para a área do perfil.
 Altere a fonte do nome do usuário para algo mais estiloso.
 Adicione espaçamento entre o nome e a descrição.
 O título da página deve ser centralizado no topo.*/
+
 *{
-	margin: 0; /*um elemento em relação ao outro*/
+	margin: 0; /*borda de um elemento em relação a do outro*/
 	padding: 0; /*do conteúdo até a borda do elemento*/
-	
+	box-sizing: border-box;
 }
 
+.primeira-classe{
+	font-family: courier, sans-serif;
+	font-size: 18px;
+}
 
 body{
 	text-align: center;
@@ -23,13 +28,14 @@ h1{
 
 #usuario{
 	font-size: 30px;
-	font-family: Arial, sans-serif;
+	font-family: arial, sans-serif;
 	padding-bottom: 5px;
 
 }
 
 p{
-
+	margin-top: 5px;
+	font-family: "comic sans", sans-serif;
 }
 
 img{
